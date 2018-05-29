@@ -2,7 +2,6 @@ let gulp = require('gulp'),
 	poststylus = require('poststylus'),
 	stylus = require('gulp-stylus'),
 	livereload = require('gulp-livereload');
- 	data = require('gulp-data');
 	autoprefixer = require('autoprefixer'),
 	cssnano = require('cssnano'),
 	cssnext = require('cssnext'),
