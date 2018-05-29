@@ -1,0 +1,20 @@
+
+/* line 297 : /Users/drunkengranite/projects/websites/elm-personal-site/src/styles/main.styl */
+
+/* line 1 : /Users/drunkengranite/projects/websites/elm-personal-site/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/drunkengranite/projects/websites/elm-personal-site/src/styles/main.styl */
+:root {
+  --background-default: #fff;
+}
+
+/* line 4 : /Users/drunkengranite/projects/websites/elm-personal-site/src/styles/main.styl */
+img {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 8 : /Users/drunkengranite/projects/websites/elm-personal-site/src/styles/main.styl */
+img:hover {
+  width: 200px;
+}
