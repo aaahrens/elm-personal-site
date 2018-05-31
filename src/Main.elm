@@ -47,9 +47,9 @@ view model =
 
 main : Program Never Model Msg
 main =
-    Html.program
-        { view = view
-        , init = init
+    Navigation.program parseRoute
+        { init = init
         , update = update
-        , subscriptions = always Sub.none
+        , view = view
+        , subscriptions = subscriptions
         }
